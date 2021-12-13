@@ -50,7 +50,7 @@ public class Application {
 
   @GetMapping("/")
   public String index() {
-    return "Let the battle begin! - after some changes";
+    return "Let the battle begin! - v1.0.0";
   }
 
   @PostMapping("/**")
